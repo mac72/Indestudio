@@ -1,0 +1,366 @@
+/* normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif; /* 1 */
+  line-height: 1.15; /* 2 */
+  -ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+figcaption,
+figure,
+main {
+/* 1 */
+  display: block;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+audio,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+button,
+input {
+/* 1 */
+  overflow: visible;
+}
+button,
+select {
+/* 1 */
+  text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+details,
+menu {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+canvas {
+  display: inline-block;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+/*
+  finde Nomalize CSS
+  inicio CSS pagina web
+ */
+body {
+  background: url("../img/bg.png") repeat;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+body #wraper {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f00;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+a {
+  text-decoration: none;
+}
+#linea-superior {
+  width: 100%;
+  height: 5px;
+  background-color: #2598cf;
+}
+.iconos-sociales {
+  list-style: none;
+  float: right;
+  width: 170px;
+}
+.iconos-sociales li {
+  float: left;
+}
+.iconos-sociales a {
+  display: block;
+  background: url("../img/iconos-sociales.png");
+  height: 50px;
+  padding-left: 10px;
+}
+/*crear sprit css*/
+.facebook a,
+.twitter a,
+.google a {
+  width: 45px;
+}
+.facebook a {
+  background-position: 0 0;
+}
+.facebook a:hover {
+  background-position: 0 -50px;
+}
+.twitter a {
+  background-position: -60px 0;
+}
+.twitter a:hover {
+  background-position: -60px -50px;
+}
+.google a {
+  background-position: -122px 0;
+}
+.google a:hover {
+  background-position: -122px -50px;
+}
+#tel {
+  float: right;
+  font-size: 30px;
+  color: #666;
+}
+#frmBuscar {
+  clear: both;
+  float: right;
+}
+#search {
+  border: 1px solid #e0e0e0;
+  padding: 5px 9px;
+  font-size: 13px;
+  color: #888;
+  width: 140px;
+  background: #fff;
+  box-shadow: 0px 2px rgba(0,0,0,0.05);
+  border-radius: 4px;
+  float: left;
+}
+#btnSearch {
+  background: url("../img/icono-lupa.png");
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border: none;
+  margin: -3px 10px 5px 10px;
+}
+nav {
+  background-color: #4c4c4c;
+  height: 47px;
+  margin-top: 15px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  display: block;
+  text-align: center;
+  float: left;
+  color: #fff;
+  border-right: 1px solid #666;
+  padding: 15px 30px;
+  font-size: 15px;
+}
+#portada {
+  z-index: -1;
+  opacity: 0.5;
+}
+#eslogan {
+  z-index: 999;
+  position: absolute;
+  font-size: 60px;
+  color: #333;
+  font-style: italic;
+  margin-left: 20px;
+}
+.btn {
+  box-shadow: inset 0px 1px 0px 0px #fce2c1;
+  background: -moz-linear-gradient(center top, #ffc477 5%, #fb9e25 100%);
+  background-color: #ffc477;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-indent: 0;
+  border: 1px solid #eeb44f;
+  display: inline-block;
+  color: #fff;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: bold;
+  font-style: normal;
+  height: 52px;
+  line-height: 52px;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #cc9f52;
+  z-index: 999;
+  position: absolute;
+  top: 550px;
+  text-transform: uppercase;
+  margin-left: 80px;
+}
+.btn:hover {
+  background: -moz-linear-gradient(center top, #fb9e25 5%, #ffc477 100%);
+  background-color: #fb9e25;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}

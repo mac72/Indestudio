@@ -1,0 +1,156 @@
+body
+	background url(../img/bg.png) repeat
+	font-family Helvetica, Arial, sans-serif
+	font-size: 14px
+	color #666
+	#wraper
+		width 960px
+		margin: 0 auto
+		background-color #fff
+h1, h2, h3, h4, h5,h6
+	color red
+	font-weight: 600
+	letter-spacing -0.2px
+a
+	text-decoration: none
+#linea-superior
+	width: 100%
+	height: 5px
+	background-color: #2598cf
+	
+.iconos-sociales 
+	list-style: none
+	float right
+	width: 170px
+	li
+		float left
+	a
+		display block
+		background url(../img/iconos-sociales.png)
+		height 50px
+		padding-left 10px
+		
+/*!crear sprit css*/
+.facebook, .twitter, .google
+	a
+		width 45px
+.facebook a
+	background-position 0 0
+	&:hover
+		background-position 0 -50px
+.twitter a
+	background-position -60px 0
+	&:hover
+		background-position -60px -50px
+.google a
+	background-position -122px 0
+	&:hover
+		background-position -122px -50px
+	
+
+#tel
+	float right
+	font-size: 30px
+	color #666
+
+#frmBuscar
+	clear both
+	float right
+
+
+  
+#search
+	border 1px solid #e0e0e0
+	padding 5px 9px
+	font-size: 13px
+	color #888
+	width 140px
+	background #fff
+	box-shadow 0px 2px rgba(0, 0, 0, 0.05)
+	border-radius 4px
+	float left
+	
+#btnSearch
+	background url(../img/icono-lupa.png)
+	height 32px
+	width 32px
+	position relative
+	border none
+	margin -3px 10px 5px 10px
+nav
+	background-color: #4c4c4c
+	height 47px
+	margin-top: 15px
+	ul 
+		list-style-type none
+		margin 0
+		padding 0
+	a 
+		display block
+		text-align: center
+		float: left
+		color #fff
+		border-right 1px solid #666
+		padding 15px 30px
+		font-size 15px
+
+#portada
+	z-index -1
+	opacity: 0.5
+#eslogan
+	z-index: 999
+	position absolute
+	font-size 60px
+	color #333
+	font-style italic
+	margin-left: 20px
+
+.btn
+	-moz-box-shadow inset 0px 1px 0px 0px #fce2c1
+	-webkit-box-shadow inset 0px 1px 0px 0px #fce2c1
+	box-shadow inset 0px 1px 0px 0px #fce2c1
+	background -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) )
+	background -moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% )
+	//filter progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25')
+	background-color #ffc477
+	-webkit-border-top-left-radius 10px
+	-moz-border-radius-topleft 10px
+	border-top-left-radius 10px
+	-webkit-border-top-right-radius 10px
+	-moz-border-radius-topright 10px
+	border-top-right-radius 10px
+	-webkit-border-bottom-right-radius 10px
+	-moz-border-radius-bottomright 10px
+	border-bottom-right-radius 10px
+	-webkit-border-bottom-left-radius 10px
+	-moz-border-radius-bottomleft 10px
+	border-bottom-left-radius 10px
+	text-indent 0
+	border 1px solid #eeb44f
+	display inline-block
+	color #ffffff
+	font-family Arial
+	font-size 19px
+	font-weight bold
+	font-style normal
+	height 52px
+	line-height 52px
+	width 200px
+	text-decoration none
+	text-align center
+	text-shadow 1px 1px 0px #cc9f52
+	z-index 999
+	position: absolute
+	top 550px
+	text-transform: uppercase
+	margin-left: 80px
+	
+.btn:hover
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	//filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+.btn:active
+	position:relative;
+	top:1px;
+	

@@ -1,0 +1,47 @@
+doctype html
+html(lang='es')
+  head
+    meta(charset="utf-8")
+    title Curso de Diseño Web | Aprende Diseño Web
+    meta(name="Descripción" content="Curso de diseño web. Aprende ahora diseño web. Todo lo que necesitas para aprender a hacer diseño de paginas web")
+    meta(name="author" content="ISC. José Macedonio Segovia Chan")
+    link(rel="stylesheet" href="css/styles.css")
+
+    
+  body
+    #wraper
+      header
+        #linea-superior
+        img#logo(src="img/logo.png" alt="INDESTUDIO.Diseño Industrial")
+        ul.iconos-sociales
+          li.facebook: a(href="#")
+          li.twitter: a(href="#")
+          li.google: a(href="#")
+        h2#tel 981.129.5220
+
+        // formulario busqueda
+        form#frmBuscar(action="#")
+          input#search(type="text" placeholder="Buscar...")
+          button#btnSearch(type="submit")
+
+        //menu principal
+        nav
+          ul
+            each val in ["Inicio", "Quienes Somos", "Servicios", "Portafolio", "Contactos"]
+
+              li: a(href='#')=val
+      // portada
+      h2#eslogan Somos especialistas en <br> diseño de interiores <br>para oficina
+      a.btn(href="#") Contacta ahora
+      img#portada(src="img/portada.jpg" alt="Deseño de interiores para oficinas")
+      section
+        .tres-cols
+        .tres-cols
+        .tres-cols
+
+
+
+    script(src="js/modernizr.js")
+    script(src="js/live.js")
+    
+  
