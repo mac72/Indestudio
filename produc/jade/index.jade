@@ -34,10 +34,29 @@ html(lang='es')
       h2#eslogan Somos especialistas en <br> diseño de interiores <br>para oficina
       a.btn(href="#") Contacta ahora
       img#portada(src="img/portada.jpg" alt="Deseño de interiores para oficinas")
-      section
+      section#informacion
         .tres-cols
+          img.destacado(src="img/icono-equipo.png" alt="equipo")
+          h3 El equipo
+          p Somos un equipos multidiciplinario y polivalente con gran experiencia
         .tres-cols
+          img.destacado(src="img/icono-trabajo.png" alt="trabajo")
+          h3 Como trabajamos
+          p Sentimos verdadera pasion por nuestro trabajo y lo transmitimos.
         .tres-cols
+          img.destacado(src="img/icono-clientes.png" alt="clientes")
+          h3 Nuestros clientes
+          p Las referencias de nuestros clientes avalan nuestros trabajos
+      //.clearfix
+      section.clearfix#opinion
+        blockquote "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, distinctio totam quasi soluta vel saepe neque odio excepturi. Fugit sed nostrum corporis neque facere earum amet ducimus fugiat voluptatem adipisci." - 
+          <span>Sonia Gutiérrez (Aresta SL.)</span>
+      
+      ul.lista-logos
+        each val in [1, 2, 3, 4, 5]
+          li.cinco-cols: a(href="#"): img(src="img/logo_0" + val + ".png")
+      .clearfix
+
 
 
 

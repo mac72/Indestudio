@@ -208,7 +208,10 @@ body {
   font-size: 14px;
   color: #666;
 }
-body #wraper {
+.clearfix {
+  clear: both;
+}
+#wraper {
   width: 960px;
   margin: 0 auto;
   background-color: #fff;
@@ -219,7 +222,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #f00;
+  color: #333;
   font-weight: 600;
   letter-spacing: -0.2px;
 }
@@ -363,4 +366,46 @@ nav a {
 .btn:active {
   position: relative;
   top: 1px;
+}
+.tres-cols {
+  width: 33.33%;
+  float: left;
+  margin: 15px 0 0px 0px;
+  box-sizing: border-box;
+}
+.tres-cols p {
+  margin-top: -10px;
+  font-size: 13px;
+  font-weight: normal;
+}
+.tres-cols h3 {
+  margin-top: 5px;
+}
+.destacado {
+  float: left;
+  margin: 0 10px;
+}
+#opinion {
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  background: #fcfcfc;
+  box-shadow: inset 0px 2px 0px 0px #f7f7f7, inset 0px -2px 0px 0px #f7f7f7;
+  padding: 20px 30px;
+}
+#opinion blockquote {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 25px;
+}
+#opinion span {
+  font-style: none;
+  font-size: 16px;
+}
+.lista-logos {
+  list-style-type: none;
+}
+.cinco-cols {
+  width: 20%;
+  float: left;
+  margin-bottom: 25px;
 }
