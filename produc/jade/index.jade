@@ -47,8 +47,8 @@ html(lang='es')
           img.destacado(src="img/icono-clientes.png" alt="clientes")
           h3 Nuestros clientes
           p Las referencias de nuestros clientes avalan nuestros trabajos
-      //.clearfix
-      section.clearfix#opinion
+      .clearfix
+      section#opinion
         blockquote "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, distinctio totam quasi soluta vel saepe neque odio excepturi. Fugit sed nostrum corporis neque facere earum amet ducimus fugiat voluptatem adipisci." - 
           <span>Sonia Gutiérrez (Aresta SL.)</span>
       
@@ -57,10 +57,57 @@ html(lang='es')
           li.cinco-cols: a(href="#"): img(src="img/logo_0" + val + ".png")
       .clearfix
 
+      footer
+        .container
+
+          .dos-cols
+            h2 INDESTUDIO
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, atque, dolorem, voluptatem pariatur ad qui reprehenderit vero a id labore repellendus ex non quam excepturi delectus adipisci itaque consequatur. Ab!
+            h3 Dónde estamos
+          
+            p Plaza del Mar, Av Adolfo Ruiz Cortinez, 24014 Campeche.
+            iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1115.7124875944844!2d-90.5368752490287!3d19.848645195978946!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f833f717af3fb5%3A0x4bfbbf37b57f5932!2sPlaza+del+Mar%2C+Av+Adolfo+Ruiz+Cortinez%2C+%C3%81rea+Ah%2C+24014+Campeche%2C+Camp.!5e0!3m2!1ses-419!2smx!4v1480096261724" 
+            width="100%" 
+            height="200" 
+            frameborder="0" 
+            style="border:0" 
+            allowfullscreen)
+          .dos-cols
+            
+            form.widget-contacto(action="#" method="post")
+              h2 ¡Contacta ahora
+              label(for="nombre") Nombre:
+              input#nombre(type="texto"
+                            name="nombre" 
+                            placeholder="Nombre.."
+                            required="")
+              
+              label(for="email") Email:
+              input#nombre(type="texto"
+                            name="email" 
+                            placeholder="Correo electonico.."
+                            required="")
+            
+              label(for="mensaje") Mensaje:
+              textarea#mensaje(
+                            name="email" 
+                            placeholder="Mensaje.."
+                            required="")
+              input#submit(
+                          type="submit"
+                          value="Enviar"
+                          requiered="")
+
+        .clearfix
+        #copyright &copy; M@c 2016 &nbsp;
+          strong INDESTUDIO 
+          &nbsp; | &nbsp; Todos los derecchos reservados
+
 
 
 
     script(src="js/modernizr.js")
-    script(src="js/live.js")
+
+    //- solo para produccion script(src="js/live.js")
     
   

@@ -211,6 +211,9 @@ body {
 .clearfix {
   clear: both;
 }
+.container {
+  padding: 20px 30px;
+}
 #wraper {
   width: 960px;
   margin: 0 auto;
@@ -319,6 +322,9 @@ nav a {
   padding: 15px 30px;
   font-size: 15px;
 }
+nav a:hover {
+  background-color: #2598cf;
+}
 #portada {
   z-index: -1;
   opacity: 0.5;
@@ -408,4 +414,59 @@ nav a {
   width: 20%;
   float: left;
   margin-bottom: 25px;
+}
+footer {
+  background-color: #4c4c4c;
+  height: auto;
+  color: #bbb;
+}
+.dos-cols {
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+.dos-cols h2 {
+  color: #fff;
+}
+.dos-cols h3 {
+  color: #eee;
+}
+.dos-cols p {
+  line-height: 30px;
+}
+label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.widget-contacto {
+  margin: 0 auto;
+  width: 90%;
+  float: right;
+}
+input,
+textarea {
+  width: 90%;
+  height: 22px;
+  background-color: #666;
+  border: 2px solid #f6f6f6;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #fff;
+}
+textarea {
+  height: 152px;
+}
+#submit {
+  width: 33%;
+  height: 35px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#copyright {
+  background-color: #424242;
+  padding: 20px 15px;
+  color: #aaa;
 }
